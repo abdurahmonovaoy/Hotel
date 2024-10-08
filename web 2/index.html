@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com//ajax/libs/bootstrap/5.3.2/css//bootstrap.min.css" />
+    <link rel="stylesheet" href="index.css">
+
+    <title>Mehmon hona tizimi</title>
+</head>
+
+<body>
+    <div>
+        <input type="number" name="" id="hona_raqam" placeholder="Hona raqami...">
+        <select name="" id="turi">
+            <option value="bir kishilik">bir kishilik</option>
+            <option value="ikki kishilik">ikki kishilik</option>
+            <option value="uch kishili">uch kishili</option>
+            <option value="olti kishilik">olti kishilik</option>
+        </select>
+        <input type="number" name="" id="narx" placeholder="Hona narxi...">
+    </div>
+
+    <div id="mehmonxona-container">
+        <h2>Xonalar Ro'yxati</h2>
+        <div id="guest-list"></div>
+        <button onclick="addHona()">Hona qo'shish</button>
+    </div>
+    <div class="jadval">
+        <table>
+            <thead id="head">
+                <tr id="tema">
+                    <th>No</th>
+                    <th>Hona Nomeri</th>
+                    <th>Turi</th>
+                    <th>Narxi</th>
+                </tr>
+            </thead>
+            <tbody id="body">
+
+            </tbody>
+        </table>
+    </div>
+
+</body>
+<script src="./index.js"></script>
+
+</html>

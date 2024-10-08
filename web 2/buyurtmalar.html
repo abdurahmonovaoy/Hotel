@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./buyurtmalar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com//ajax/libs/bootstrap/5.3.2/css//bootstrap.min.css" />
+    <title>Document</title>
+</head>
+
+<body onload="getBuyurtma()">
+
+
+
+    <div class="buyur" id="mehmonxona-container">
+        <h2>Buyurtmalar blogi</h2>
+        <div id="guest-list"></div>
+        <input type="number" name="" id="hona_raqam" placeholder="Berilgan hona raqami">
+        <input type="date" name="" id="bosh_sana">
+        <input type="date" name="" id="tug_sana">
+
+
+        <button onclick="addGuest()">Buyurtmalar qoshish</button>
+    </div>
+    <div class="jadval1">
+
+        <table>
+            <thead id="head">
+                <tr id="tema">
+                    <th>No</th>
+                    <th>Xona nomeri</th>
+
+                
+                <th class="dan">dan</th>
+                <th class="dan">gacha</th>
+                <th>Kun miqdori</th>
+                <th>Umumiy narxi</th>
+                </tr>
+            </thead>
+            <tbody id="body">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="./buyurtmalar.js"></script>
+
+
+    <!-- <td>${(Kun_miqdori.toLocaleDateString(Kun_miqdori))}</td> -->
+
+</body>
+
+</html>
